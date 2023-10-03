@@ -23,6 +23,7 @@ nav a {
 .blueberry {
   color: #ababab;
 }
+.blueberry:hover{color: #00ccb1;}
 #root {
   display: flex;
   flex-direction: column;
