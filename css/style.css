@@ -20,6 +20,7 @@ nav a {
   font-family: "Helvetica Neue", Helvetica, Arial, Sans-serif;
   gap: 20px;
 }
+#menu{display: none;}
 .blueberry {
   color: #ababab;
 }
@@ -65,7 +66,6 @@ nav a {
   border-radius: 10px;
   display: flex;
   flex-direction: column;
-  position: relative;
 }
 
 #for1 {
@@ -347,3 +347,24 @@ text-decoration: none;
 #end p{padding: 15px;}
 #end a:hover{
 text-decoration: underline;}
+
+@media (max-width: 576px) {
+  nav{
+    display: none;
+  }
+  #menu{
+    width: 50px;
+    display: flex;
+
+  }
+  header{
+    width: 100vw;
+  }
+  .forsection{
+    flex-direction: column;
+  }
+  #section3{
+    flex-direction: column;
+  }
+
+} 
